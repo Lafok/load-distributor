@@ -19,6 +19,9 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    // https://mvnrepository.com/artifact/org.assertj/assertj-core
+    testImplementation("org.assertj:assertj-core:3.27.3")
 }
 
 testing {

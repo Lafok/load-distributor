@@ -9,6 +9,9 @@ public interface LoadDistributorInterface {
     void addMachine(int machineId, int capacity);
 
 
+    /**
+     * Retrieves the maximum capacity of the machine with the given machineId.
+     */
     int getMachineCapacity(int machineId);
 
     /**
@@ -43,4 +46,3 @@ public interface LoadDistributorInterface {
     List<Integer> getApplications(int machineId);
 
 }
-
